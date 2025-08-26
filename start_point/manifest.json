@@ -1,6 +1,6 @@
 {
-  "image_name": "cyberdojofoundation/gpp_cucumber_gtest:4c7f578",
-  "display_name": "C++ (g++), Cucumber-cpp",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:552f1dd",
+  "display_name": "C++ (g++ 15.1.0), Cucumber-cpp 0.7.0",
   "visible_filenames": [
     "features/hiker.feature",
     "features/step_definitions/cucumber.wire",
