@@ -1,6 +1,6 @@
 
-When the ./pipe_build_up_test.sh script runs it send the start_point/
-files (as defined in manifes.json) to the runner service three times.
+When the ./run_test.sh script runs it send the start_point/
+files (as defined in manifest.json) to the runner service three times.
 
 1) The files are unmodified, and a red traffic-light is expected.
 2) The source file containing the expression '6 * 9' is modified
