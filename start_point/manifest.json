@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:6c73a34",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:c358d75",
   "display_name": "C++ (g++ 15.2.0), Cucumber 0.8.0",
   "language": [
     "C++ (g++)",
@@ -18,6 +18,7 @@
     "hiker.hpp",
     "hiker.cpp"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "highlight_filenames": [
     "features/hiker.feature",
     "features/step_definitions/hiker_steps.cpp",
