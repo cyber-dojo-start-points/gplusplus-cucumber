@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:9bf3497",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:7678af8",
   "display_name": "C++ (g++ 15.2.0), Cucumber 0.8.0",
   "language": [
     "C++ (g++)",
