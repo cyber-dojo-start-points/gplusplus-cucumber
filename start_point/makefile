@@ -17,10 +17,10 @@ CXXFLAGS += -O0
 # build only slowed it down to produce counts nobody ever saw.
 
 # The image holds precompiled GoogleTest and cucumber-cpp headers, and reading
-# them back is a great deal quicker than parsing them again on every [test]
-# press. gcc only uses a precompiled header when it comes before everything else
-# in the file, which is what -include does here without your step definitions
-# having to say so.
+# them back is a great deal quicker than parsing them again on every
+# [test] press. gcc only uses a precompiled header when it comes before
+# everything else in the file, which is what -include does here without your
+# step definitions having to say so.
 #
 # These flags have to match the ones the image precompiled with. Change any of
 # the above and gcc quietly ignores the precompiled header: nothing breaks, the
