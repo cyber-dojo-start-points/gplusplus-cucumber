@@ -1,0 +1,14 @@
+{
+  "matches": [
+    "^You can implement step definitions for undefined steps with these snippets:$"
+  ],
+  "match_counts": {
+    "^UUU$": 1,
+    "^1 scenario \\(1 undefined\\)$": 1,
+    "^3 steps \\(3 undefined\\)$": 1,
+    "^GIVEN\\(\"\\^the hitch-hiker selects some tiles\\$\"\\) \\{$": 1,
+    "^WHEN\\(\"\\^they spell 6 times 7\\$\"\\) \\{$": 1,
+    "^THEN\\(\"\\^the score is 42\\$\"\\) \\{$": 1
+  },
+  "truncated": false
+}

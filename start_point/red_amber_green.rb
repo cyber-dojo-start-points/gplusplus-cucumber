@@ -9,5 +9,12 @@ lambda { |stdout,stderr,status|
   return :red if /terminate called/.match(output)
   return :red if /^[.\-UAPF]*P[.\-UAPF]*$/.match(output)
   return :red if /^[.\-UAPF]*F[.\-UAPF]*$/.match(output)
-  return :green
+
+  # Green rests on cucumber's own summary saying every scenario it ran passed,
+  # and on there having been one to run. Anything else reaching here is output
+  # this cannot read: a run whose summary never arrived because the learner
+  # printed past what the runner keeps, or one that found no feature file at
+  # all. Neither proves anything, so neither is green.
+  return :green if /^[1-9]\d* scenarios? \(\d+ passed\)$/.match(output)
+  return :amber
 }

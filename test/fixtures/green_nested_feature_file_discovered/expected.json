@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 12,
+  "match_counts": {
+    "^\\.{6}$": 1,
+    "^2 scenarios \\(2 passed\\)$": 1,
+    "^6 steps \\(6 passed\\)$": 1
+  },
+  "truncated": false
+}

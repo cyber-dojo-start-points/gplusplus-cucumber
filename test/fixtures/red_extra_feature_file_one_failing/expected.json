@@ -1,0 +1,12 @@
+{
+  "matches": [
+    "^\\./features/answer_size\\.feature:[0-9]+:in `the score has 3 digits'$"
+  ],
+  "match_counts": {
+    "^\\.\\.F\\.\\.\\.$": 1,
+    "^\\(::\\) failed steps \\(::\\)$": 1,
+    "^2 scenarios \\(1 failed, 1 passed\\)$": 1,
+    "^6 steps \\(1 failed, 5 passed\\)$": 1
+  },
+  "truncated": false
+}

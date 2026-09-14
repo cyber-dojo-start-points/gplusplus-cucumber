@@ -1,0 +1,11 @@
+{
+  "matches": [
+    "^\\./features/answer_size\\.feature: \\([0-9]+:[0-9]+\\): unexpected end of file, expected: #DocStringSeparator, #Other \\(Cucumber::Core::Gherkin::ParseError\\)$"
+  ],
+  "match_counts": {
+    "^[0-9]+ scenarios?": 0,
+    "^[0-9]+ steps?": 0,
+    "^\\.+$": 0
+  },
+  "truncated": false
+}

@@ -1,0 +1,12 @@
+{
+  "matches": [
+    "^hiker_steps\\.cpp:[0-9]+:in `/\\^the hitch-hiker knows where their towel is\\$/'$"
+  ],
+  "match_counts": {
+    "^\\.\\.\\.P$": 1,
+    "^\\(::\\) pending steps \\(::\\)$": 1,
+    "^1 scenario \\(1 pending\\)$": 1,
+    "^4 steps \\(1 pending, 3 passed\\)$": 1
+  },
+  "truncated": false
+}

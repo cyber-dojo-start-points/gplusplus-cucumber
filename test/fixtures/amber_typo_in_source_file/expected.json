@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^hiker\\.cpp: In function 'int answer\\(int, int\\)':$",
+    "^hiker\\.cpp:[0-9]+:[0-9]+: error: 'bb' was not declared in this scope; did you mean 'b'\\?$",
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: hiker\\.o\\] Error 1$"
+  ],
+  "match_counts": {
+    "^ *5 \\|     return a \\* bb;$": 1,
+    "scenario": 0,
+    "steps": 0
+  },
+  "truncated": false
+}

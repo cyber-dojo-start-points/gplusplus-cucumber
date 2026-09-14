@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "features/step_definitions/hiker_steps\\.o: in function ",
+    "undefined reference to `checksum\\(int\\)'$"
+  ],
+  "match_counts": {
+    "^collect2: error: ld returned 1 exit status$": 1,
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: test\\] Error 1$": 1,
+    "^[0-9]+ scenarios?": 0,
+    "^[0-9]+ steps?": 0
+  },
+  "truncated": false
+}

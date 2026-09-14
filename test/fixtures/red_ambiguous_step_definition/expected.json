@@ -1,0 +1,15 @@
+{
+  "matches": [
+    "^Ambiguous match of \"the score is 42\":$",
+    "^hiker_steps\\.cpp:[0-9]+:in `/\\^the score is \\(\\\\d\\+\\)\\$/'$",
+    "^hiker_steps\\.cpp:[0-9]+:in `/\\^the score is 42\\$/'$"
+  ],
+  "match_counts": {
+    "^\\.\\.F$": 1,
+    "^\\(::\\) failed steps \\(::\\)$": 1,
+    "^ \\(Cucumber::Ambiguous\\)$": 1,
+    "^1 scenario \\(1 failed\\)$": 1,
+    "^3 steps \\(1 failed, 2 passed\\)$": 1
+  },
+  "truncated": false
+}

@@ -1,0 +1,12 @@
+{
+  "matches": [
+    "^features/step_definitions/hiker_steps\\.cpp:[0-9]+:[0-9]+: error: expected ';' before '[}]' token$",
+    "^ *[0-9]+ \\|     context->result = answer\\(multiplier, multiplicand\\)$"
+  ],
+  "match_counts": {
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: features/step_definitions/hiker_steps\\.o\\] Error 1$": 1,
+    "^[0-9]+ scenarios?": 0,
+    "^[0-9]+ steps?": 0
+  },
+  "truncated": false
+}
