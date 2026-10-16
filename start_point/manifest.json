@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:7678af8",
-  "display_name": "C++ (g++ 15.2.0), Cucumber 0.8.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_cucumber_gtest:0a7b367@sha256:45fc623fa6ac04648552362886c2d72f1982ba96ff1f4c1ef1b26c252cbc313f",
+  "display_name": "C++ (g++ 16.2.0), Cucumber 0.9.0",
   "language": [
     "C++ (g++)",
-    "15.2.0"
+    "16.2.0"
   ],
   "test_framework": [
     "Cucumber",
-    "0.8.0"
+    "0.9.0"
   ],
   "visible_filenames": [
     "features/hiker.feature",
