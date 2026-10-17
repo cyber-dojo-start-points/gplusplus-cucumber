@@ -32,6 +32,5 @@
     ".c",
     ".h"
   ],
-  "tab_size": 4,
-  "max_seconds": 20
+  "tab_size": 4
 }
